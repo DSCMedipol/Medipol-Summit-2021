@@ -2101,7 +2101,8 @@ h3 {
   writing-mode: vertical-lr;
   position: absolute;
   left: 17%;
-  top: 10%;
+  top: 15%;
+  letter-spacing: 15px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
