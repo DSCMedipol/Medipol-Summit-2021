@@ -98,7 +98,6 @@
         });
 
 
-
 // for filter
         // init Isotope
         var $grid = $('.grid').isotope({
@@ -159,7 +158,7 @@
             upKey: 38,             // key code to navigate to the next section
             downKey: 40,           // key code to navigate to the previous section
             easing: 'linear',      // the easing function for animation
-            scrollTime: 600,       // how long (in ms) the animation takes
+            scrollTime: 800,       // how long (in ms) the animation takes
             activeClass: 'active', // class given to the active nav element
             onPageChange: null,    // function(pageIndex) that is called when page is changed
             topOffset: 0           // offste (in px) for fixed top navigation
@@ -212,12 +211,12 @@
             loop: true,
             margin: 30,
             items: 1,
-// autoplay:true,
+            autoplay: true,
             navText: ['<i class="Flaticon flaticon-left-arrow"></i>', '<i class="Flaticon flaticon-right-arrow"></i>'],
             nav: true,
             dots: false,
-// autoplayHoverPause: true,
-// autoplaySpeed: 800,
+            autoplayHoverPause: true,
+            autoplaySpeed: 800,
             responsive: {
                 0: {
                     items: 1,
@@ -250,12 +249,12 @@
             loop: true,
             margin: 0,
             items: 1,
-// autoplay:true,
+            autoplay: true,
             navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
             nav: true,
             dots: false,
-// autoplayHoverPause: true,
-// autoplaySpeed: 800,
+            autoplayHoverPause: true,
+            autoplaySpeed: 800,
             responsive: {
                 0: {
                     items: 1,
